@@ -2,6 +2,7 @@
 
 export(getSD)
 export(sd_api)
+export(showStock)
 importFrom(httr,GET)
 importFrom(httr,build_url)
 importFrom(httr,content)

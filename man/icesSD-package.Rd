@@ -11,13 +11,26 @@ R interface to access the web services of the ICES Stock Database.
 \details{
 \emph{Get dataset:}
 \tabular{ll}{
-  \code{\link{getSD}}    \tab full stock list\cr
+  \code{\link{getSD}}    \tab full stock list, with filtering by stock and year\cr
+}
+\emph{Show on screen:}
+\tabular{ll}{
+  \code{\link{showStock}} \tab one stock, in a readable format
 }
 }
 \references{
-ICES Stock Database: \url{http://sd.ices.dk}.
+ICES Stock Database: \url{https://sd.ices.dk}.
 
-ICES Stock Database web services: \url{http://sd.ices.dk/services/}.
+ICES Stock Database web services: \url{https://sd.ices.dk/services/}.
+}
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://sd.ices.dk}
+  \item \url{https://github.com/ices-tools-prod/icesSD}
+  \item Report bugs at \url{https://github.com/ices-tools-prod/icesSD/issues}
+}
+
 }
 \author{
 Colin Millar, Scott Large, and Arni Magnusson.
